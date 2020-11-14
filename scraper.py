@@ -9,7 +9,7 @@ from selenium import webdriver
 
 SEARCH_TERM = "wall"
 NUMBER_IMAGES = 100
-DRIVER_PATH = "/Users/marcelo/projects/image-gan/chromedriver"
+DRIVER_PATH = "driver/chromedriver"
 
 wd = webdriver.Chrome(executable_path=DRIVER_PATH)
 
